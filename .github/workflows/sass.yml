@@ -23,7 +23,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
         
+      - name: cd
+        run: cd sass
       - name: Chmod SASS
-        run: chmod a+x sass
+        run: chmod a+x sass-bin
       - name: Convert SASS to CSS
-        run: ./sass style.scss style.css
+        run: ./sass-bin style.scss style.css
