@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+body {
+  scroll-behavior: smooth;
+  overflow: hidden;
+  margin: 0px;
+}
+
+.intro-headline {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 208px;
+  line-height: 312px;
+  color: #FFFFFF;
+  margin: 50px 0 0 100px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: #fff;
+}
+
+#nb-1 {
+  position: absolute;
+  top: 50vh;
+  left: 90vw;
+}
+
+#date-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 190px;
+  line-height: 285px;
+  text-align: right;
+  margin-left: 0;
+}
+
+#date-mini-text {
+  color: #fff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+}
+
+#date {
+  position: absolute;
+  left: 200vw;
+  top: 50px;
+}
+
+#nb-2 {
+  position: absolute;
+  top: 50vh;
+  left: 90vw;
+}
+
+#live {
+  position: absolute;
+  top: 50px;
+  left: 300vw;
+}
+
+/*# sourceMappingURL=style.css.map */
