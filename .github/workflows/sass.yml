@@ -26,6 +26,6 @@ jobs:
       - name: cd
         run: cd sass
       - name: Chmod SASS
-        run: chmod a+x sass-bin
+        run: chmod a+x ./sass/sass-bin
       - name: Convert SASS to CSS
-        run: ./sass-bin style.scss style.css
+        run: ./sass/sass-bin style.scss style.css
